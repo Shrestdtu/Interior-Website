@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: aliceblue;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-image: url(1487187.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* .heading{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 6vh;
+    margin-top: 3vh;
+    background-image: url(hi.jpeg);
+    background-position-y: -500px;
+} */
+.navbar{
+    position: sticky;
+    /* display: flex; */
+    color: black;
+    top: 0;
+}
+.navbar a{
+    display: inline-block;
+}
+.other{
+    margin-left: 48vw;
+    margin-top: -4.2vh;
+    /* margin-right: 15vw; */
+}
+.harsh{
+    font-size: 5vh;
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 8vw;
+}
+.harsh a:link{
+    text-decoration: none;
+    margin-right: 0vw;
+}
+.other a:link{
+    text-decoration: none;
+    margin-right: 5vw;
+}
+.harsh a:visited{
+    text-decoration: none;
+    margin-right: 0vw;
+}
+.other a:visited{
+    text-decoration: none;
+    margin-right: 5vw;
+}
+.harsh a:hover{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    margin-right: 0vw;
+}
+.other a:hover{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    margin-right: 5vw;
+}
+.para{
+    color: rgb(254, 254, 254);
+    margin-top: 36vh;
+    margin-left: 52vh;
+    font-size: 8vh;
+    font-weight: bolder;
+    align-items: center;
+}
+.button {
+    margin-top: 10vh;
+    margin-left: 49vh;
+    height: 50vh;
+}
+.button input{
+    background: transparent;
+    border-color: aquamarine;
+    margin-left: 6vw;
+    height: 8vh;
+    font-size: 2vh;
+    width: 200px;
+    border-radius: 25px;
+}
+.button input:hover{
+    /* background-color: rgb(4, 4, 4); */
+    opacity: 0.3;
+    font-weight: bolder;
+    text-decoration-skip: true;
+    transition: 0.40s;
+}
